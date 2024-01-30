@@ -74,6 +74,7 @@ const WeatherApp = () => {
 
   return (
     <div className="container">
+      <div className="text">Gustavo A. Cortes Medina</div>
       <div className="top-bar">
         <input type="text" className="cityInput" placeholder="Search" />
         <div
@@ -104,9 +105,6 @@ const WeatherApp = () => {
             <div className="wind-rate">13 km/h</div>
             <div className="text">Wind Speed</div>
           </div>
-        </div>
-        <div className="copyright">
-          <h5>Gustavo A. Cortes Medina</h5>
         </div>
       </div>
     </div>
