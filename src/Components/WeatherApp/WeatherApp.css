@@ -88,3 +88,9 @@
 .icon{
     margin-top: 10px;
 }
+
+.copyright h5{
+    font-size:10px;
+    color:black;
+    text-align: center;
+}

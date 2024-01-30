@@ -105,7 +105,9 @@ const WeatherApp = () => {
             <div className="text">Wind Speed</div>
           </div>
         </div>
-        <div className="copyright"></div>
+        <div className="copyright">
+          <h5>Gustavo A. Cortes Medina</h5>
+        </div>
       </div>
     </div>
   );
