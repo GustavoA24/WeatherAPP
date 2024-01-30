@@ -74,7 +74,11 @@ const WeatherApp = () => {
 
   return (
     <div className="container">
-      <div className="text">Gustavo A. Cortes Medina</div>
+      <div className="text">
+        Gustavo A. Cortes Medina
+        <br />
+        Weather App
+      </div>
       <div className="top-bar">
         <input type="text" className="cityInput" placeholder="Search" />
         <div
@@ -107,6 +111,9 @@ const WeatherApp = () => {
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
     </div>
   );
 };
