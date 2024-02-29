@@ -13,7 +13,7 @@ import humidity_icon from "../Assets/humidity.png";
 const WeatherApp = () => {
   let api_key = "cecba9016b2a353231d5e859c2295ddb";
 
-  const [wicon, setWicon] = useState(cloud_icon); // Estado para el ícono del clima
+  const [wicon, setWicon] = useState(cloud_icon);
 
   const search = async () => {
     const element = document.getElementsByClassName("cityInput");
@@ -75,7 +75,7 @@ const WeatherApp = () => {
   return (
     <div className="container">
       <div className="text">
-        Gustavo A. Cortes Medina
+        Dr. Carlos Gonzalez
         <br />
         Weather App
       </div>
